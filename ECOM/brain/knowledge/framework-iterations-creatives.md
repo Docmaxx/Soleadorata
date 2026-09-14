@@ -38,6 +38,58 @@ fois qu'on construit des itérations de créas gagnantes pour ELOVYA.
 | **Lieu/décor** | 🟢 Oui | Change l'ambiance et la perception, peut devenir le hook lui-même (effet surprise) |
 | **Niveau d'awareness** | 🟢 Oui | Product aware / solution aware / problem aware — entraîne souvent d'autres changements en cascade, mais reste un levier stratégique à part entière |
 
+## Catalogue de formats 2026 (par étage de funnel — TOF/MOF/BOF)
+
+Complète l'élément "Format" du tableau ci-dessus. Chaque changement de catégorie =
+itération forte (🟢) au sens du framework. TOF = top of funnel (prospection large),
+MOF = middle (considération), BOF = bottom (conversion/retargeting).
+
+**1. Transformation & Demo**
+Before/After (TOF) · Installation Demo (TOF/MOF) · Satisfying/ASMR (TOF) · Room
+Tour (TOF/MOF) · Day in the Life (TOF/MOF) · Product Highlight (MOF) · Unboxing
+(MOF)
+
+**2. Storytelling & VSL**
+Storytime Talking Head (TOF) · VSL Emotional Story (TOF/MOF) · VSL
+Problem/Solution (TOF/MOF) · VSL Native Story — narration 3e personne, style
+advertorial (TOF/MOF) · VSL Listicle — "3 raisons/5 choses que vous ignorez"
+(MOF) · Faceless B-Roll + VO (MOF)
+
+**3. Authority & Education**
+Presenter + Slides (MOF) · Expert Rating — un expert note les options et retombe
+sur le produit (MOF/BOF) · Expert Authority (MOF) · Founder Ad — fondateur en
+talking head (MOF/BOF) · Whiteboard Explainer (MOF) · News Anchor (TOF/MOF) ·
+Podcast Clip (MOF)
+
+**4. Social Proof & Interaction**
+UGC Talking Head (TOF/MOF) · Review Mashup (MOF/BOF) · Comment Reply (MOF) ·
+Objection Handling — traite les doutes un par un (MOF/BOF) · Calling Our
+Customers — appel client en direct (MOF/BOF) · Street Interview (TOF/MOF) ·
+Duo/Two-Person (TOF/MOF) · Greenscreen Reaction (TOF/MOF) · IG Q&A (MOF) · AI
+Avatar Talking Head (TOF/MOF)
+
+**5. Native / Feed Camouflage**
+Reddit Story (TOF/MOF) · X Thread (TOF/MOF) · Text Conversation — iMessage/
+WhatsApp (TOF/MOF) · Google Search (TOF) · Screen Recording — avis/site défilés
+(MOF/BOF)
+
+**6. Concept & Animation**
+Pixar 3D (TOF) · Cartoon 2D (TOF) · Offer Video — vidéo promo/soldes (BOF)
+
+### Application à la créa gagnante (founder story ELOVYA)
+
+Elle occupe actuellement la case **VSL Emotional Story / Storytime** (texte
+défilant, pas de talking head). Formats de la même famille "storytelling"
+jamais testés pour ce concept :
+- **Founder Ad** (talking head) — même histoire, elle la raconte face caméra
+- **VSL Native Story** — narration à la 3e personne façon advertorial plutôt
+  qu'au "je"
+- **Review Mashup** — sortir la scène sœur/amies en format compilation
+  d'avis autonome
+- **Objection Handling** — créa dédiée qui répond aux objections listées dans
+  `elovya-menopause-avatar-offre.md` (interactions HRT, sucre, abonnement
+  caché, etc.), jamais couverte par la créa actuelle
+
 ## Les éléments d'une créa STATIQUE (pas de montage/footages)
 
 - **Concept** 🟢 — ex: problème-solution → 100% textuel
