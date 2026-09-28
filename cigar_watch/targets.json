@@ -1,0 +1,56 @@
+{
+  "product": "Quai d'Orsay No. 54",
+  "must_contain": ["quai", "54"],
+  "targets": [
+    {
+      "shop": "Zigarrenschweiz",
+      "url": "https://www.zigarrenschweiz.ch/products/quai-dorsay-no-54",
+      "strategy": "shopify"
+    },
+    {
+      "shop": "Siglomundo",
+      "url": "https://fr.siglomundo.ch/products/quai-dorsay-no-54",
+      "strategy": "shopify"
+    },
+    {
+      "shop": "Zigarren-Online.ch",
+      "url": "https://www.zigarren-online.ch/quai-d-orsay-no-54.html"
+    },
+    {
+      "shop": "Zigarrenversand.ch",
+      "url": "https://zigarrenversand.ch/quai-d-orsay-no.-54"
+    },
+    {
+      "shop": "LeCigare.ch (boîte 10)",
+      "url": "https://www.lecigare.ch/p1480_quai-d-orsay-no54-10.html"
+    },
+    {
+      "shop": "LeCigare.ch (boîte 25)",
+      "url": "https://www.lecigare.ch/p1683_quai-d-orsay-no54-25.html"
+    },
+    {
+      "shop": "Tabakhaus",
+      "url": "https://tabak-haus.ch/quai-d-orsay/1347-quai-d-orsay-no-54.html"
+    },
+    {
+      "shop": "Tabaklädeli",
+      "url": "https://www.tabaklaedeli.ch/produkt/quai-dorsay-no-54/"
+    },
+    {
+      "shop": "La Casa del Habano Nyon (boîte 25)",
+      "url": "https://la-casa-del-habano-nyon.com/en/boutique/cigares-cubains/quai-dorsay/quai-dorsay-no-54-25/"
+    },
+    {
+      "shop": "Mister Cigar (boîte 25)",
+      "url": "https://mistercigar.com/en/boutique/cigares-cubains/quai-dorsay/quai-dorsay-no-54-25/"
+    },
+    {
+      "shop": "Cigarpassion (boîte 10)",
+      "url": "https://cigarpassion.ch/en/boutique/cigares-cubains/quai-dorsay/quai-dorsay-no-54-10/"
+    },
+    {
+      "shop": "Cigarpassion (boîte 25)",
+      "url": "https://cigarpassion.ch/en/boutique/cigares-cubains/quai-dorsay/quai-dorsay-no-54-25/"
+    }
+  ]
+}

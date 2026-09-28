@@ -1,0 +1,50 @@
+name: Cigar Watch
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"  # minimum GitHub ; en pratique 5 à 15 min selon la charge
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "run = passage normal | dry-run = diagnostic sans alerte | test-telegram = message de test"
+        type: choice
+        options: [run, dry-run, test-telegram]
+        default: dry-run
+
+concurrency:
+  group: cigar-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    env:
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      MODE: ${{ inputs.mode || 'run' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Restaurer l'état (dernières dispos connues)
+        uses: actions/cache/restore@v4
+        with:
+          path: cigar_watch/state.json
+          key: cigar-state-${{ github.run_id }}
+          restore-keys: cigar-state-
+
+      - name: Vérifier les boutiques
+        working-directory: cigar_watch
+        run: |
+          case "$MODE" in
+            dry-run)       python3 watcher.py --dry-run ;;
+            test-telegram) python3 watcher.py --test-telegram ;;
+            *)             python3 watcher.py ;;
+          esac
+
+      - name: Sauvegarder l'état
+        if: always() && env.MODE == 'run' && hashFiles('cigar_watch/state.json') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: cigar_watch/state.json
+          key: cigar-state-${{ github.run_id }}-${{ github.run_attempt }}
