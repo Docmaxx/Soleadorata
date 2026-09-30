@@ -21,6 +21,13 @@ Studio de production créative pour **Soleadorata** (gummies bronzants) : advert
 4. **Ne jamais écraser** : on versionne (`v1`, `v2`…) plutôt que de remplacer.
 5. **Langue** : FR par défaut ; réponses courtes, structurées, orientées décision.
 
+## Secrets & API
+
+- Clés API dans `.env` à la racine (ignoré par git, permissions 600). Modèle : `.env.example`.
+- Variable KIE AI : `KIEAI_API_KEY`. En session cloud, la définir aussi dans les variables d'environnement de l'environnement (le conteneur est éphémère).
+- **Ne jamais afficher, logger ni committer une clé.** Toujours la référencer via `$KIEAI_API_KEY`.
+- Solde KIE AI : `./tools/kie-balance.sh`.
+
 ## Workflow type
 
 `ref/` (inputs) → `script/` (angle + copy) → `runs/` (génération + sélection) → export final dans `runs/<run>/final/`.
